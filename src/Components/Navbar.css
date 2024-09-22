@@ -1,0 +1,51 @@
+#logo {
+    width: 122px;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    
+    padding: 10px 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#navbar {
+    display: flex;
+}
+
+#navbar ul {
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 15px;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+#navbar li button {
+    all: unset;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #585858;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease;
+}
+
+#navbar li button:hover {
+    color: #000000;
+    border-bottom: 2px solid #0049ff;
+}
+
